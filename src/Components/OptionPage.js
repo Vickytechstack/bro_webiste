@@ -259,7 +259,7 @@ const OptionPage = (props) => {
                 width: "22vw",
                 height: "7vh",
                 borderRadius: "5px",
-                marginLeft: "200px",
+                marginLeft: "250px",
                 marginTop: "50px",
               }}
             >
