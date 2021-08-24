@@ -7,7 +7,20 @@ import profile from "../Assets/profile.png";
 import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
-    <div style={{ display: "flex", marginTop: "10px" }}>
+    <div
+      style={{
+        display: "flex",
+        marginTop: "10px",
+        margin: 0,
+        padding: 0,
+        boxSizing: "border-box",
+        fontFamily: "Poppins",
+        width: "100%",
+        position: "relative",
+        justifyContent: "space-between",
+        textAlign: "center",
+      }}
+    >
       <div>
         <Link to="/login">
           <img src={navbar_logo} alt="logo" />
@@ -25,27 +38,34 @@ const Navbar = () => {
           marginTop: "5px",
         }}
       >
-        <p
+        <input
+          type="search"
+          placeholder="Search Restaurant,Cafe"
           style={{
-            fontSize: "12px",
-            fontWeight: "550",
-            textAlign: "center",
-            padding: "15px",
+            border: "none",
+            outline: "none",
+            background: "#F8F8F8",
+            height: "100%",
+            padding: "0 10px",
+            fontSize: "15px",
+            width: "350px",
+            borderRadius: "30px",
           }}
-        >
-          Search Restaurant, cafe
-        </p>
-        <p
+        />
+        <input
+          type="search"
+          placeholder="Boduhuraa"
           style={{
-            fontSize: "12px",
-            fontWeight: "550",
-            textAlign: "center",
-            padding: "15px",
-            marginLeft: "20px",
+            border: "none",
+            outline: "none",
+            background: "#F8F8F8",
+            height: "100%",
+            padding: "0 10px",
+            fontSize: "15px",
+            width: "350px",
+            borderRadius: "30px",
           }}
-        >
-          Boduhuraa
-        </p>
+        />
       </div>
       <div
         style={{

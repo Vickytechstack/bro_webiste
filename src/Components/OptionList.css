@@ -1,0 +1,29 @@
+.container-div {
+  background: #fff;
+  height: 25vh;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  font-family: "Poppins";
+}
+
+.first-div {
+  background-color: #be0d97;
+  border-radius: 50%;
+  width: 158px;
+  height: 158px;
+  margin-left: 20px;
+}
+
+.first-div:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.second-div {
+  background-color: #c03030;
+  border-radius: 50%;
+  border-radius: 50%;
+  width: 158px;
+  height: 158px;
+  margin-left: 20px;
+}

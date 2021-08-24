@@ -1,0 +1,96 @@
+.first-div {
+  height: 85vh;
+}
+
+.main-heading {
+  font-size: 20px;
+  text-align: center;
+  font-size: 700;
+}
+
+.sub-heading {
+  margin-top: -15px;
+  text-align: center;
+  color: #7f8aa5;
+  font-weight: 300;
+}
+
+.card {
+  width: 11vw;
+  height: 28vh;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.card:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-heading {
+  font-weight: 600;
+  font-size: 10;
+  text-align: center;
+  margin-top: 10px;
+}
+.card-heading1 {
+  font-weight: 600;
+  font-size: 10;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.card-image-background1 {
+  background-color: #be0d97;
+  border-radius: 60%;
+  width: 75%;
+  height: 60%;
+  margin-left: 20px;
+}
+
+.card-image-background2 {
+  background-color: #c03030;
+  border-radius: 60%;
+  width: 75%;
+  height: 60%;
+  margin-left: 20px;
+}
+
+.card-image-background3 {
+  background-color: red;
+  border-radius: 60%;
+  width: 75%;
+  height: 60%;
+  margin-left: 20px;
+}
+
+.card-image-background4 {
+  background-color: #03dfdf;
+  border-radius: 60%;
+  width: 75%;
+  height: 60%;
+  margin-left: 20px;
+}
+.card-image-background5 {
+  background-color: #045d71;
+  border-radius: 60%;
+  width: 75%;
+  height: 60%;
+  margin-left: 20px;
+}
+
+.button {
+  /* linear-gradient: (92.77deg, #6e4ccf 10.89%, #6946cd 94.57%); */
+  background-color: #6e4ccf;
+  color: #fff;
+  text-align: center;
+  border: none;
+  width: 22vw;
+  height: 7vh;
+  border-radius: 5px;
+  margin-left: 250px;
+  margin-top: 50px;
+}
+
+.button:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

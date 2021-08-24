@@ -29,7 +29,7 @@ const Banner = () => {
               marginTop: "-450px",
               fontWeight: "700",
               fontSize: "35px",
-              marginLeft: "20px",
+              marginLeft: "30px",
             }}
           >
             Order Your
@@ -40,7 +40,7 @@ const Banner = () => {
               fontWeight: "700",
               fontSize: "35px",
               marginTop: "-15px",
-              marginLeft: "20px",
+              marginLeft: "30px",
             }}
           >
             Daily Groceries
@@ -51,7 +51,7 @@ const Banner = () => {
               fontWeight: "400",
               fontSize: "22px",
               marginTop: "-15px",
-              marginLeft: "20px",
+              marginLeft: "30px",
               color: "#18892D",
             }}
           >
